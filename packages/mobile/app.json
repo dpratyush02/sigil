@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "sigil.runable",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#131313"
+      },
+      "edgeToEdgeEnabled": true,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "sigil"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "extra": {
+      "apiUrl": "https://j8gcjtbbed5jkh8khpvc1-preview-4200.runable.site/"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sigil_k7m2.runable",
+      "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#131313"
+    },
+    "name": "SIGIL",
+    "slug": "sigil",
+    "version": "1.0.0",
+    "scheme": "sigil",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-document-picker",
+      "expo-image-picker"
+    ],
+    "assetBundlePatterns": [
+      "assets/*",
+      "assets/**/*"
+    ],
+    "fonts": [
+      "./assets/Ionicons.ttf"
+    ]
+  }
+}

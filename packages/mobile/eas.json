@@ -1,0 +1,22 @@
+{
+  "build": {
+    "production": {},
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascApiKeyPath": "./keys/AuthKey.p8"
+      }
+    }
+  }
+}
